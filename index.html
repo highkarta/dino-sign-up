@@ -1,12 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basic Sign Up</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Works?</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div class="hero-div">
+        <img src="assets/hero-bg.jpg" alt="A bike in the heavens of Ladakh"/>
+        <div></div>
+        <p>
+          Photo by
+          <a
+            href="https://unsplash.com/@rohit_kumar_21?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Rohit Kumar</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/a-motorcycle-parked-on-a-road-idzQ-cyYFb4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Unsplash</a
+          >
+        </p>
+      </div>
+      <div>
+        <h3>
+          This is not a real online service! You know you need something like this in your life to
+          help you realize your deepest dreams.
+        </h3>
+        <h1>Sign up <span>now</span> to get started.</h1>
+        <h2>You <span>know</span> you want to.</h2>
+      </div>
+      <div>
+        <form action="#" method="post">
+          <fieldset>
+            <label for="first_name">first name</label>
+            <input type="text" name="firstName" id="first_name" />
+          </fieldset>
+          <fieldset>
+            <label for="last_name">last name</label>
+            <input type="text" name="lastName" id="last_name" />
+          </fieldset>
+          <label for="email">email</label>
+          <input type="email" name="email" id="email" />
+          <label for="phone">phone number</label>
+          <input type="tel" name="phoneNum" id="phone" />
+          <label for="pass">password</label>
+          <input type="password" name="pwd" id="pass" />
+          <label for="confirm-pass">confirm password</label>
+          <input type="password" name="confirmPwd" id="confirm-pass" />
+          <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="">Log in</a></p>
+      </div>
+  </body>
 </html>
