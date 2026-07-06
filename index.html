@@ -31,7 +31,7 @@
         >
       </p>
     </div>
-    <div id="hero2">
+    <div id="hero">
       <div id="hero-text">
         <h3>
           This is not a real online service! You know you need something like this in your life to
@@ -41,27 +41,41 @@
         <h2>You <em>know</em> you want to.</h2>
       </div>
       <form action="#" method="post">
-        <fieldset>
-          <label for="first_name">first name</label>
-          <input type="text" name="firstName" id="first_name" />
-          <label for="last_name">last name</label>
-          <input type="text" name="lastName" id="last_name" />
-        </fieldset>
-        <fieldset>
-          <label for="email">email</label>
-          <input type="email" name="email" id="email" />
-          <label for="phone">phone number</label>
-          <input type="tel" name="phoneNum" id="phone" />
-        </fieldset>
-        <fieldset>
-          <label for="pass">password</label>
-          <input type="password" name="pwd" id="pass" />
-          <label for="confirm-pass">confirm password</label>
-          <input type="password" name="confirmPwd" id="confirm-pass" />
-        </fieldset>
+        <div>
+          <div>
+            <label for="first_name">first name</label>
+            <input type="text" name="firstName" id="first_name" value="Thor" placeholder="John..."/>
+          </div>
+          <div>
+            <label for="last_name">last name</label>
+            <input type="text" name="lastName" id="last_name" value="Odinson" placeholder="Doe..."/>
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="abc@example.com"/>
+          </div>
+          <div>
+            <label for="phone">phone number</label>
+            <input type="tel" name="phoneNum" id="phone" placeholder="873XXXXXXX"/>
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="pass">password</label>
+            <input type="password" name="pwd" id="pass" />
+          </div>
+          <div>
+            <label for="confirm-pass">confirm password</label>
+            <input type="password" name="confirmPwd" id="confirm-pass" />
+          </div>
+        </div>
       </form>
-      <button type="submit">Create Account</button>
-      <p>Already have an account? <a href="#">Log in</a></p>
+      <div id="account">
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
     </div>
   </body>
 </html>
