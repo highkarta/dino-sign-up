@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic Sign Up</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="hero1">
-      <img src="assets/hero-bg.jpg" alt="A bike in the heavens of Ladakh" />
+      <img src="assets/hero-bg.jpg" alt="A bike in the heavens of Ladakh" id="hero-bg"/>
       <div>
-        <img src="assets/odin-lined.png" alt="" />
-        <p>ODIN</p>
+        <img src="assets/odin-lined.png" alt="" id="odin-logo"/>
+        <p class="skranji-regular">ODIN</p>
       </div>
-      <p>
+      <p id="attribution">
         Photo by
         <a
           href="https://unsplash.com/@rohit_kumar_21?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
@@ -32,8 +35,8 @@
           This is not a real online service! You know you need something like this in your life to
           help you realize your deepest dreams.
         </h3>
-        <h1>Sign up <span>now</span> to get started.</h1>
-        <h2>You <span>know</span> you want to.</h2>
+        <h1>Sign up <em>now</em> to get started.</h1>
+        <h2>You <em>know</em> you want to.</h2>
       </div>
         <form action="#" method="post">
           <fieldset>
@@ -54,8 +57,8 @@
             <label for="confirm-pass">confirm password</label>
             <input type="password" name="confirmPwd" id="confirm-pass" />
           </fieldset>
-          <button type="submit">Create Account</button>
         </form>
+        <button type="submit">Create Account</button>
         <p>Already have an account? <a href="#">Log in</a></p>
     </div>
   </body>
